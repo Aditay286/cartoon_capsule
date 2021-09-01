@@ -1,0 +1,12 @@
+vocab(Category)
+{
+  "DOGS"{
+    "dog" "dogs"
+  }
+  "CATS"{
+    "cat" "cats"
+  }
+  "DATING"{
+    "dating" "datings"
+  }
+} 

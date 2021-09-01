@@ -1,0 +1,27 @@
+layout {
+  match:Cartoon(this)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        image {
+          url("[#{value(this.imgUrl)}]")
+          object-fit (Contain)
+        }
+        paragraph {
+          value ("[#{value(this.category)}]")
+          style(Label_M)
+        }
+        paragraph {
+          value ("[#{value(this.author)}]")
+          style(Label_M_Soft)
+        }
+        paragraph{
+          value ("See more on [#{value(this.pageUrl)}]")
+          style(Label_M_Soft)
+        }
+      }
+    }
+  }
+}

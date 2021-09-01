@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint ("hello"){
+      preferred-hint ("adad")
+    }
+  }
+}
